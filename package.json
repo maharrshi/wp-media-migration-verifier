@@ -1,0 +1,29 @@
+{
+  "name": "media-verifier-using-playwright",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:shard": "npx playwright test --shard",
+    "group": "node src/groupByExtension.js",
+    "verify": "node src/groupByExtension.js && npx playwright test",
+    "verify:full": "SAMPLE_SIZE=all node src/groupByExtension.js && npx playwright test",
+    "verify:workers": "node src/groupByExtension.js && npx playwright test --workers",
+    "report": "node generate-html-report.js"
+  },
+  "keywords": [
+    "playwright",
+    "media",
+    "qa",
+    "wordpress",
+    "migration",
+    "verification"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "Playwright-based tool that verifies large sets of migrated media files are reachable and render or download correctly.",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "playwright": "^1.57.0"
+  }
+}

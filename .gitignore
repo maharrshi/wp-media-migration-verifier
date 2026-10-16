@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Local configuration
+.env
+
+# Generated test data and results
+data/samples.json
+results.ndjson
+results.ndjson.lock
+summary.html
+test-results.json
+
+# Playwright reports
+playwright-report/
+test-results/
+blob-report/
+
+# OS files
+.DS_Store
+**/.DS_Store

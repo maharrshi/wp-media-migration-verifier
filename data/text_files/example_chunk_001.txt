@@ -1,0 +1,6 @@
+uploads/2024/01/sample-image.jpg
+uploads/2024/01/sample-logo.png
+uploads/2024/02/sample-video.mp4
+uploads/2024/02/sample-scan.tiff
+uploads/2024/03/sample-clip.mov
+uploads/2024/03/sample-photo.heic
